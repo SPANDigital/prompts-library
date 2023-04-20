@@ -1,2 +1,2 @@
-# assistant-chatgpt-prompts
-Assistant ChatGPT prompts
+# prompts-library
+Prompts library
