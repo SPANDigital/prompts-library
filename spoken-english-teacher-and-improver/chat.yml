@@ -1,0 +1,7 @@
+name: chat
+inherit: system
+params:
+  chat: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .chat }}"
