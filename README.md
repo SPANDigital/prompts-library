@@ -62,3 +62,10 @@ Here are six variations using different copywriting formulas:
 5. PASTOR: You won't believe what happened in the Markus Jooste case...but there's still hope thanks to SA's Lamola promising cooperation with Germany. Find out more inside.
 6. SODA: In today's news, South Africa and Germany team up after the Steinhoff scandal. Cheers to Lamola for his promise of cooperation!
 ```
+
+### Find restaurants in a city you are visiting
+
+Input:
+```bash
+echo "I am in San Francisco, I want to visit restaurants." \
+| codeassistant run travel-guide advice```
