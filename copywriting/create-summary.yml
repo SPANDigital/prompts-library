@@ -7,4 +7,4 @@ params:
   paragraphs: "5"
 prompts:
   - role: user
-    content: Create a summary in {{ paragraphs }} paragraphs of ```{{ sourceText }}```.
+    content: Create a summary in 5 paragraphs of ```{{ .sourceText }}```.
