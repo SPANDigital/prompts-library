@@ -1,0 +1,7 @@
+name: draw-object
+inherit: system
+params:
+  object: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .object }}"
