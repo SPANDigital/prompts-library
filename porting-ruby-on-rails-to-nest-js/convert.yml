@@ -1,0 +1,13 @@
+name: convert-concept
+usage: >
+  cat <rubySourceCode> | codeassistant run-prompts \
+  porting-ruby-on-rails-to-nest-js convert from:<from> to:<to> | glow
+inherit: system
+params:
+  from: ""
+  to: ""
+  sourceCode: "{{ fetchStdinAsString}}"
+prompts: 
+  - role: assistant
+    content: >
+      Convert Ruby on Rails {{ from }} to Nest JS {{ to }}: ```{{ sourceCode }}```
