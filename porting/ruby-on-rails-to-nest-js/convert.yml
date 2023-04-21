@@ -1,0 +1,9 @@
+name: convert-concept
+inherit: system
+params:
+  from: ""
+  to: ""
+  sourceCode: "{{ fetchStdinAsString}}"
+prompts: 
+  - role: assistant
+    content: "Convert Ruby on Rails {{ from }} to Nest JS {{ to }}: ```{{ sourceCode }}```"

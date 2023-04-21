@@ -3,5 +3,5 @@ inherit: copywriter
 inputs:
   - headline
 prompts:
-  - role: user
+  - role: assistant
     content: Rewrite this headline "{headline}".
