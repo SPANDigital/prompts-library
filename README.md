@@ -43,6 +43,14 @@ codeassistant list
 
 ## Examples
 
+### Draw table mountain
+
+```bash
+echo "Table Mountain" | codeassistant run svg-designer draw-image
+```
+
+![Table Mountain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzdmdfMiIgdmlld0JveD0iMCAwIDIzNCAzNjAiPjxwYXRoIGQ9Im0xNTQuNDgzIDMxMC40NDlMMjYwIDM1LjAxOGMzLjI3NS0zLjE3NyA1LjM1OC0yLjg2NCA2LjQ2Ny0zLjcybDUuNzE1LTUuNjIxYy0wLjY1My0zLjEyLTcuOTM5LTAuMDUxLTEyLjA5LTEuMTQybDUuNzE1IDUuNjIxbC0xMC4yMTggMTAuMjE4YzAuNjUzIDMuMTcgMC4wNTEgNS4zNTguODU5IDYuNDY3aC0xMi4zN3Y4LjUzNmMtMC4yNDUgMy4zMDgtMC4xOCA1Ljk5Ny00LjU0MyA1Ljk5N2wyOS42OTggMjkuNjk1YzEuNDg1IDIuODI0IDkuNDcxIDYuNTg2IDkuMzk3IDE3LjMxNGMzLjMwNiAzLjE3NyAyLjg2NCA2LjQ2NyAzLjcyIDkuMDIybDQuMTQxLTQuMTQybC01LjYyMSA1LjcxNWMtMC42NTIgMy4xNy0wLjA1MSA3LjkzOC0wLjY1MSAxMi4wOTMtMS4xNDJ6Ii8+PC9zdmc+)
+
 ### Rewrite a headline
 
 ```bash
@@ -86,9 +94,11 @@ If you like to explore more restaurants like these, you could visit North Beach,
 echo "hamster" | codeassistant run ascii-artist draw-object
 ```
 
+```
  (\ /)
  (='.'=)
  (")_(")
+```
 
 ### IT Problems
 
@@ -97,8 +107,6 @@ Input:
 echo "I can't view ppt files on my mac" \
 | codeassistant run it-expert solve-problem
 ```
-
-Output:
 
 There are several ways to view PowerPoint (ppt) files on a Mac computer. Here are a few solutions:
 

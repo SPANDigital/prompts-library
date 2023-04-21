@@ -1,0 +1,7 @@
+name: draw-image
+inherit: system
+params:
+  image: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .image }}"
