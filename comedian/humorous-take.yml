@@ -1,0 +1,8 @@
+name: humorous-take
+inherit: system
+params:
+  topic: "{{ stdin }}"
+prompts:
+  - role: user
+    content: >
+      My request is "I want an humorous take on {{ .topic }}.".
