@@ -1,0 +1,9 @@
+name: design-database
+inherit: system
+params:
+  requirements: "{{ stdin }}"
+prompts:
+  - role: user
+    content: >
+      Output SQL which is DDL which create all tables for a database which fullfils
+      the following requirements: {{ .requirements }}

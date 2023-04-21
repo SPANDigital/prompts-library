@@ -1,5 +1,6 @@
 name: copywriter
 model: gpt-3.5-turbo
+system: true
 prompts:
   - role: system
     content: >

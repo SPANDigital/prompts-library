@@ -1,7 +1,9 @@
 name: rewrite-headline
 inherit: copywriter
-inputs:
+usage: >
+  ```codeassistant copywriting rewrite-headline "headline:Florida Man has alligator as security"```
+params:
   - headline
 prompts:
-  - role: assistant
-    content: Rewrite this headline "{headline}".
+  - role: user
+    content: Rewrite this headline "{{ .headline }}".
