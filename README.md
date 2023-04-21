@@ -31,5 +31,7 @@ brew reinstall codeassistant
 
 To list available prompts
 
-```codeassistant list-prompts | glow```
+```bash
+codeassistant list-prompts | glow
+```
 

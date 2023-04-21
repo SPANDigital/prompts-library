@@ -1,0 +1,10 @@
+name: create-summary
+inherit: copywriter
+usage: >
+  cat transciption.txt
+inputs:
+  sourceText: "{{ stdin }}"
+  paragraphs: "5"
+prompts:
+  - role: assistant
+    content: Create a summary in {{ paragraphs }} paragraphs of ```{{ sourceText }}```.
