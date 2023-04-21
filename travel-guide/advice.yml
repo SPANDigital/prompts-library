@@ -1,0 +1,7 @@
+name: advice
+inherit: system
+params:
+  advice: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .advice }}"
