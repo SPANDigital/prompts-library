@@ -1,0 +1,7 @@
+name: run
+inherit: system
+params:
+  cmd: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .cmd }}"

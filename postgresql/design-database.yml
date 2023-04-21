@@ -5,5 +5,5 @@ params:
 prompts:
   - role: user
     content: >
-      Output SQL which is DDL which create all tables for a database which fullfils
-      the following requirements: {{ .requirements }}
+      Output SQL which is DDL which create all tables for a database which fulfills
+      the following requirements: {{ .requirements }}. 
