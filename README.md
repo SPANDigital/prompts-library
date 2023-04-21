@@ -49,7 +49,7 @@ codeassistant list
 Command:
 ```bash
 echo "SA will co-operate with Germans, says Lamola after former Steinhoff CEO Markus Jooste fails to appear in court" \
-g| codeassistant run copywriting rewrite-headline
+| codeassistant run copywriting rewrite-headline
 ```
 Output:
 ```bash
@@ -68,4 +68,21 @@ Here are six variations using different copywriting formulas:
 Input:
 ```bash
 echo "I am in San Francisco, I want to visit restaurants." \
-| codeassistant run travel-guide advice```
+| codeassistant run travel-guide advice
+```
+Output:
+```bash
+Great choice! San Francisco is known for its diverse food scene, here are some recommended places to visit for restaurants:
+
+1. The Ferry Building Marketplace: Located on the Embarcadero, this indoor market features dozens of artisanal food vendors and restaurants.
+
+2. Mission District: This neighborhood has a variety of restaurants featuring different cuisines like Mexican, Salvadoran, and Vietnamese. Some of the popular restaurants include La Taqueria, Tacolicious, and Loló.
+
+3. China Town: One of the oldest and largest Chinatowns in the United States, offering authentic Chinese cuisine.
+
+4. Union Square: If you want to try some upscale restaurants and dining experience, head towards Union Square where you can find some of the city's best fine-dining restaurants.
+
+5. Chestnut Street: This street is popular for its bustling sidewalk cafes and tasty eateries.
+
+If you like to explore more restaurants like these, you could visit North Beach, the Marina, the Fillmore district or Hayes Valley area, all these places have great dining options.
+```
