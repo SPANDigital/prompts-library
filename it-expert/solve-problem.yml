@@ -1,0 +1,7 @@
+name: solve-problem
+inherit: system
+params:
+  problem: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .problem }}"
