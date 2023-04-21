@@ -13,5 +13,5 @@ prompts:
       Your output should be a single Typescript class. Do not output code snippets on full snippets.
   - role: system
     content: >
-      If you make assumptions, include them as comments in the HTML code.
+      If you make assumptions, include them as comments in the typescriopt code.
       

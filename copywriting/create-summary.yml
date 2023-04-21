@@ -1,7 +1,7 @@
 name: create-summary
 inherit: copywriter
 usage: >
-  cat transciption.txt
+  cat transcription.txt | codeassistant copywriting create-summary paragraphs:5
 inputs:
   sourceText: "{{ stdin }}"
   paragraphs: "5"
