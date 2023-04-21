@@ -3,6 +3,8 @@ Prompts library
 
 Clone this library under your home directory
 
+Please see this repository for some [examples](https://github.com/f/awesome-chatgpt-prompts).
+
 ```bash
 cd $HOME
 git clone git@github.com:SPANDigital/prompts-library.git
@@ -43,14 +45,7 @@ codeassistant list
 
 ## Examples
 
-### Draw table mountain
-
-```bash
-echo "Hamster" | codeassistant run svg-designer draw-image
-```
-
-![Hamster SVG](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDAgNDAiIGhlaWdodD0iNDAiIHdpZHRoPSI0MCI+PHBhdGggZD0iTTUuMDMgMzVoNDB2LTMuMTNIMHoiLz48cGF0aCBkPSJNMyAweiIvPjxwYXRoIGQ9Ik02IDEwYzAtNC42MyAyLjI4LTMuMTMgNC4zNi00LjAzIDMuMTMtMy4yOCA0LjQzLTguMDMgNC4wNC0xMC4yNiA4LjIxLTIwLjQ2IDE1LTcuMjQgMy0xNSA2Ljg4aC0zLjg4djIwYzAgNC42MyAzLjEzIDUuNTcgOC4xNiAxMC44Mmg2Ljg4di02Ljg4YzAtNC42My0zLjEzLTQuMzYtNC4wMy0zLjEzLTMuMjggNC40My04LjAzIDQuMDQteXoiLz48L3N2Zz4=)
-### Rewrite a headline
+# Rewrite a headline
 
 ```bash
 echo "SA will co-operate with Germans, says Lamola after former Steinhoff CEO Markus Jooste fails to appear in court" \

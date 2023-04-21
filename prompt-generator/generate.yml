@@ -1,0 +1,7 @@
+name: generate
+inherit: system
+params:
+  title: "{{ stdin }}"
+prompts:
+  - role: user
+    content: My title is "{{ .title }}" (Give me prompt only)
