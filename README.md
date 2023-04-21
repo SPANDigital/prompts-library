@@ -48,7 +48,8 @@ codeassistant list
 
 Command:
 ```bash
-echo "SA will co-operate with Germans, says Lamola after former Steinhoff CEO Markus Jooste fails to appear in court" | codeassistant run copywriting rewrite-headline
+echo "SA will co-operate with Germans, says Lamola after former Steinhoff CEO Markus Jooste fails to appear in court" \
+g| codeassistant run copywriting rewrite-headline
 ```
 Output:
 ```bash
