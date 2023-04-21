@@ -1,0 +1,7 @@
+name: request
+inherit: system
+params:
+  request: "{{ stdin }}"
+prompts:
+  - role: user
+    content: "{{ .request }}"
