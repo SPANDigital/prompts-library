@@ -4,4 +4,4 @@ params:
   requirements: "{{ stdin }}"
 prompts:
   - role: user
-    content: {{ .requirements }}
+    content: "{{ .requirements }}"
