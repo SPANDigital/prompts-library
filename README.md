@@ -118,3 +118,9 @@ There are several ways to view PowerPoint (ppt) files on a Mac computer. Here ar
 
 I hope one of these solutions helps you to view your ppt files on your Mac.
 
+### Generate a Django model
+
+```bash
+echo "Please create a model for an address detailing unit, street (required), street2, suburb, postcode, state. Have the state be a foreign key to a state model and the suburb and postcode be a foreign key to a suburb model. Include __str__ and __repr__ on all models." \
+| codeassistant run python-django adhoc
+```
