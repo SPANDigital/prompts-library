@@ -1,0 +1,18 @@
+name: action
+inherit: system
+# Params
+#  key is the param name, value is the default value
+#  values are processed with go tamplates
+#  - a function "stdin" is registered to load entire contents of stdin
+#  - sprig functions to be added in future versions
+params:
+  var1: "{{ stdin }}"
+  var2: ""
+  var3: ""
+# Params are passed as a map[string]string to the a go template context
+# i.e. var1 can be referenced as {{ .var1 }}
+# To check for the presence of a var use {{ with .var2 }}do something: {{ . }}{{ end }}
+prompts:
+  - role: user
+    content: >
+      Do something with {{ .var3 }} and {{ .var2 }}: {{ .var1 }}

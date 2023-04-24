@@ -43,6 +43,10 @@ To list available prompts
 codeassistant list
 ```
 
+## Prompt developers
+
+Please make a copy of .template directory to get started.
+
 ## Examples
 
 # Rewrite a headline

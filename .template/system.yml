@@ -1,0 +1,15 @@
+name: system
+model: gpt-3.5-turbo
+# Setting system to be true makes the rule "abstract"
+system: true
+prompts:
+  - role: system
+    content: >
+      Your are an expert <insert-role-here>.
+  - role: system
+    content: >
+      Suggest standards to adhere too.
+  - role: system
+    content: >
+      Suggest standards to adhere too.    
+      

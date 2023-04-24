@@ -1,0 +1,7 @@
+name: adhoc
+inherit: system
+params:
+  requirements: "{{ stdin }}"
+prompts:
+  - role: user
+    content: {{ .requirements }}
