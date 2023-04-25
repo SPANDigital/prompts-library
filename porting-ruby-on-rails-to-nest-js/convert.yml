@@ -4,6 +4,7 @@ params:
   from: ""
   to: ""
   sourceCode: "{{ stdin }}"
+temperature: 0.2
 prompts: 
   - role: user
     content: >

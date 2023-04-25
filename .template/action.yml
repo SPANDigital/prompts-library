@@ -1,9 +1,11 @@
+# Certain values can be processed as go templates
+# - function from sprig are available http://masterminds.github.io/sprig/
+# - a function "stdin" is registered to load entire contents of stdin
 name: action
 inherit: system
 # Params
 #  key is the param name, value is the default value
 #  values are processed with go tamplates
-#  - a function "stdin" is registered to load entire contents of stdin
 #  - sprig functions to be added in future versions
 params:
   var1: "{{ stdin }}"
