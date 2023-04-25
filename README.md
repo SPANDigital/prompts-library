@@ -3,8 +3,6 @@ Prompts library
 
 Clone this library under your home directory
 
-Please see this repository for some [examples](https://github.com/f/awesome-chatgpt-prompts).
-
 ```bash
 cd $HOME
 git clone git@github.com:SPANDigital/prompts-library.git
