@@ -1,7 +1,7 @@
 name: system
 model: gpt-3.5-turbo
 # Setting system to be true makes the rule "abstract"
-system: true
+abstract: true
 prompts:
   - role: system
     content: >

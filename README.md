@@ -15,6 +15,7 @@ git clone git@github.com:SPANDigital/prompts-library.git
 ```bash
 brew tap SPANDigital/homebrew-tap
 brew install codeassistant
+brew install codeblocks
 brew install glow
 ```
 
@@ -23,6 +24,7 @@ brew install glow
 ```bash
 brew up
 brew reinstall codeassistant
+brew reinstall codeblocks
 ```
 
 ### Configuration

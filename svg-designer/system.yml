@@ -1,6 +1,6 @@
 name: system
 model: gpt-3.5-turbo
-system: true
+abstract: true
 prompts:
   - role: system
     content: >
