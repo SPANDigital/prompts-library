@@ -1,7 +1,7 @@
 name: draw-object
 inherit: system
 params:
-  object: "{{ stdin }}"
+  object: "{{ trim stdin }}"
 prompts:
   - role: user
     content: >
