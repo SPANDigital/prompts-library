@@ -7,6 +7,7 @@ Clone this library under your home directory
 cd $HOME
 git clone git@github.com:SPANDigital/prompts-library.git
 ```
+_You can clone somewhere else, but you will need to specify in your ~/.codeassistant.yaml file_
 
 ## codeassistant and glow
 
@@ -33,6 +34,7 @@ It is recommended you set up codeassistant with a config file at `$HOME/.codeass
 ```yaml
 openAiApiKey: <api key>
 user: <your email adresss>
+promptsLibraryDir: <directory to load prompts, defaults to $HOME/prompts-library>
 ```
 
 ## Usage
