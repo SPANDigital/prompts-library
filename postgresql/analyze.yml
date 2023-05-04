@@ -1,0 +1,8 @@
+name: analyze
+inherit: system
+params:
+  sql: "{{ trim stdin }}"
+prompts:
+  - role: user
+    content: >
+      Analyze this SQL query and suggest improvements: {{ .sql }}.
