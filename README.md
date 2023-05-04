@@ -1,4 +1,5 @@
 # prompts-library
+
 Prompts library
 
 Clone this library under your home directory
@@ -45,9 +46,19 @@ To list available prompts
 codeassistant list
 ```
 
-## Prompt developers
+## Prompt engineers
+
+### Template
 
 Please make a copy of .template directory to get started.
+
+### Resources for prompt enginers
+
+- [PromptVine](https://promptvine.com/)
+- [FlowGPT](https://flowgpt.com/)
+- [AwesomeChatGPT](https://www.awesomegptprompts.com/)
+- [Prompto](https://prompto.chat/)
+- [PromptBase](https://promptbase.com/chatgpt)
 
 ## Examples
 
