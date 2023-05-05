@@ -1,0 +1,7 @@
+name: system
+model: gpt-3.5-turbo
+abstract: true
+prompts:
+  - role: system
+    content: >
+      Output only CSV data. Include heading row.

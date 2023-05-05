@@ -1,0 +1,11 @@
+name: generate-test-data
+inherit: system
+params:
+  columns: "{{ stdin }}"
+  rows: ""
+prompts:
+  - role: user
+    content: >
+      Generate {{ default "5" .rows }} rows of realistic test data which contain the columns: 
+      
+      {{ trim .columns }}

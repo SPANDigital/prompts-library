@@ -1,0 +1,10 @@
+name: mask-pii
+inherit: system
+params:
+  csv: "{{ stdin }}"
+prompts:
+  - role: user
+    content: >
+      Identify Personal Identifiable Information data in input CSV, mask it, and output resultant CSV, input follows on next line:
+      
+      {{ trim .csv }}
