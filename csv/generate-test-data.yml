@@ -6,6 +6,6 @@ params:
 prompts:
   - role: user
     content: >
-      Generate {{ default "5" .rows }} rows of realistic test data which contain the columns: 
+      Generate {{ default "5" .rows }} rows of realistic test data, no empty values, with the following heading row: 
       
       {{ trim .columns }}
