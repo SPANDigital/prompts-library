@@ -1,5 +1,4 @@
 name: convert-concept
-model: text-davinci-003
 inherit: system
 params:
   from: ""
