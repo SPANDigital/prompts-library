@@ -62,6 +62,40 @@ Please make a copy of .template directory to get started.
 
 ## Examples
 
+# CSV Test Data
+
+```bash
+echo "Firstname, Surname, Email, State, Mobile Number, Zip Code" | codeassistant run csv generate-test-data rows:20
+```
+
+Here's an example of 20 rows of realistic test data with the provided headings:
+
+```
+Firstname, Surname, Email, State, Mobile Number, Zip Code
+John, Smith, johnsmith@example.com, CA, 555-555-5555, 90210
+Jessica, Garcia, jessicagarcia@example.com, NY, 123-456-7890, 10001
+Michael, Johnson, michaeljohnson@example.com, TX, 555-867-5309, 75001
+Emily, Davis, emilydavis@example.com, IL, 312-555-5555, 60601
+Daniel, Rodriguez, drod@example.com, FL, 305-555-5555, 33109
+Emily, Johnson, ejohnson@example.com, CA, 818-555-5555, 91301
+David, Martinez, dmartinez@example.com, TX, 214-555-5555, 75201
+Sophia, Williams, swilliams@example.com, GA, 404-555-5555, 30301
+Liam, Thompson, liamt@example.com, MA, 617-555-5555, 02108
+Ava, Hernandez, avah@example.com, TX, 210-555-5555, 78205
+Benjamin, Harris, bharris@example.com, FL, 561-555-5555, 33401
+Emma, Lee, emmalee@example.com, CA, 209-555-5555, 95376
+Alexander, Wright, awright@example.com, NY, 212-555-5555, 10017
+Madison, Brown, madbrown@example.com, FL, 305-555-5555, 33131
+William, Johnson, wjohnson@example.com, TX, 512-555-5555, 78701
+Isabella, Davis, idavis@example.com, CA, 415-555-5555, 94102
+Mason, Rodriguez, mrodriguez@example.com, TX, 972-555-5555, 75202
+Sophia, King, sking@example.com, IL, 773-555-5555, 60602
+Ethan, Green, ethangreen@example.com, FL, 305-555-5555, 33166
+Natalie, Cook, ncook@example.com, CA, 323-555-5555, 90012
+```
+
+Note that the data is randomly generated and does not represent real individuals or phone numbers.
+
 # Rewrite a headline
 
 ```bash
