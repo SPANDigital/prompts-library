@@ -65,7 +65,8 @@ Please make a copy of .template directory to get started.
 # CSV Test Data
 
 ```bash
-echo "Firstname, Surname, Email, State, Mobile Number, Zip Code" | codeassistant run csv generate-test-data rows:20
+echo "Firstname, Surname, Email, State, Mobile Number, Zip Code" \
+| codeassistant run csv generate-test-data rows:20
 ```
 
 Here's an example of 20 rows of realistic test data with the provided headings:
