@@ -1,4 +1,4 @@
-name: learning-objectives
+name: apply-a-style-guide
 params:
   styleguide: ""
   content: "{{ stdin }}"
