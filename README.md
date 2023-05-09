@@ -38,6 +38,23 @@ user: <your email adresss>
 promptsLibraryDir: <directory to load prompts, defaults to $HOME/prompts-library>
 ```
 
+More complex configurations are possible
+
+```yaml
+openAiApiKey: <api key>
+user: <your email adresss>
+promptsLibraryDir: <directory to load prompts, defaults to $HOME/prompts-library>
+userAgent: <use this for user agent header>
+debug:
+  - configuration
+  - sent-prompt
+  - request-header
+  - response-header
+  - request-time
+  - first-response-time
+  - last-response-time
+```
+
 ## Usage
 
 To list available prompts
@@ -52,6 +69,10 @@ codeassistant list
 
 Please make a copy of .template directory to get started.
 
+### Free course for prompt engineers
+
+- [ChatGPT Prompt Engineering](https://learn.deeplearning.ai/chatgpt-prompt-eng/)
+
 ### Resources for prompt enginers
 
 - [PromptVine](https://promptvine.com/)
@@ -61,6 +82,19 @@ Please make a copy of .template directory to get started.
 - [PromptBase](https://promptbase.com/chatgpt)
 
 ## Examples
+
+# Notes on debugging
+
+- all debug output goes to STDERR
+
+You can chain multiple debug switches to one command
+
+```bash
+echo "hamster" | codeassistant run ascii-artist draw-object \
+  --debug configuration --debug sent-prompt \
+  --debug request-headers --debug response-headers
+```
+
 
 # CSV Test Data
 
