@@ -1,7 +1,17 @@
 name: apply-a-style-guide
+display-name: Apply a style guide
 params:
   styleguide: ""
   content: "{{ stdin }}"
+ui-hints:
+  styleguide:
+    label: Styleguide
+    helper-text: Styleguide to apply
+  content:
+    label: Content
+    helper-text: Content to transform
+    props:
+      multiline: true
 prompts:
   - role: system
     content: >
