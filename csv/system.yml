@@ -4,4 +4,4 @@ abstract: true
 prompts:
   - role: system
     content: >
-      Output only CSV data. Include heading row.
+      Output  CSV data. Include heading row. Include the CSV in a fenced code block.
