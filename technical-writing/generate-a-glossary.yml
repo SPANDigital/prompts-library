@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 name: generate-a-glossary
 params:
   content: "{{ stdin }}"

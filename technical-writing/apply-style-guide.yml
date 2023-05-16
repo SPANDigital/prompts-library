@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 name: apply-a-style-guide
 display-name: Apply a style guide
 params:

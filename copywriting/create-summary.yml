@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: MIT
+
 name: create-summary
 inherit: copywriter
-usage: >
-  ```cat transcription.txt | codeassistant copywriting create-summary paragraphs:5```
 params:
   content: "{{ stdin }}"
   paragraphs: "5"
