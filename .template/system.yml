@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 name: system
 model: gpt-3.5-turbo
 # Setting abstract to be true makes the rule "abstract"

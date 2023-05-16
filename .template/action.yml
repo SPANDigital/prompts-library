@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 # Certain values can be processed as go templates
 # - function from sprig are available http://masterminds.github.io/sprig/
 # - a function "stdin" is registered to load entire contents of stdin
