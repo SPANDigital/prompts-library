@@ -18,7 +18,6 @@ _You can clone somewhere else, but you will need to specify in your ~/.codeassis
 brew tap SPANDigital/homebrew-tap
 brew install codeassistant
 brew install codeblocks
-brew install glow
 ```
 
 ### updating
@@ -56,6 +55,12 @@ debug:
 ```
 
 ## Usage
+
+To serve a basic web user interface
+
+```bash
+codeassistant serve
+```
 
 To list available prompts
 
