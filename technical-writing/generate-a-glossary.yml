@@ -1,6 +1,12 @@
 name: generate-a-glossary
 params:
   content: "{{ stdin }}"
+ui-hints:
+  content:
+    label: Content
+    helper-text: Content to transform
+    props:
+      multiline: true
 prompts:
   - role: system
     content: >

@@ -1,6 +1,12 @@
 name: learning-objectives
 params:
   content: "{{ stdin }}"
+ui-hints:
+  content:
+    label: Content
+    helper-text: Content to transform
+    props:
+      multiline: true
 prompts:
   - role: system
     content: >
@@ -12,4 +18,5 @@ prompts:
       I will provide you with content for which I need learning objectives. If you understand, state your role and
       summarize how you create learning objectives and await the content.
   - role: user
-    content: {{ trim .content }}
+    content: >
+      {{ trim .content }}
