@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+
+name: Descriptor
+params:
+  hscode: "{{ stdin }}"
+prompts:
+  - role: system
+    content: >
+      Take the role of an HS code classifier. 
+      I will provide you with an HS Code. 
+      Your role is to find the name and description of the product. You MUST only reply with the name and description, nothing else.
+      If you are not able to correctly classify the product please give the following error message.
+      "Unable to classify HS Code."
+  - role: user
+    content: >
+      Provide the name and descrioption of the product with the following HS Code.
+      {{ trim .hscode }}
