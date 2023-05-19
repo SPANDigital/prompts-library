@@ -12,6 +12,9 @@ git clone git@github.com:SPANDigital/prompts-library.git
 ```
 _You can clone somewhere else, but you will need to specify in your ~/.codeassistant.yaml file_
 
+## OpenAI API Key
+You will need to configure an OpenAI API Key before usage.
+
 ## codeassistant 
 
 ### installing
