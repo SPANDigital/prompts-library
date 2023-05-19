@@ -1,8 +1,8 @@
 # prompts-library
+_prompt library for prompt engineers_
 
-Prompts library
-
-Clone this library under your home directory
+This is a prompts library designed to be used in tandem with the [codeassistant](https://github.com/SPANDigital/codeassistant) tool for prompt
+engineers.
 
 ```bash
 cd $HOME
@@ -10,14 +10,13 @@ git clone git@github.com:SPANDigital/prompts-library.git
 ```
 _You can clone somewhere else, but you will need to specify in your ~/.codeassistant.yaml file_
 
-## codeassistant and glow
+## codeassistant 
 
 ### installing
 
 ```bash
 brew tap SPANDigital/homebrew-tap
 brew install codeassistant
-brew install codeblocks
 ```
 
 ### updating
@@ -25,7 +24,6 @@ brew install codeblocks
 ```bash
 brew up
 brew reinstall codeassistant
-brew reinstall codeblocks
 ```
 
 ### Configuration
