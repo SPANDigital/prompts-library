@@ -4,6 +4,8 @@ _prompt library for prompt engineers_
 This is a prompts library designed to be used in tandem with the [codeassistant](https://github.com/SPANDigital/codeassistant) tool for prompt
 engineers.
 
+We are looking for contributors, please see how you can [contribute](CONTRIBUTING.md), and our [code of conduct](CODE_OF_CONDUCT.md).
+
 ```bash
 cd $HOME
 git clone git@github.com:SPANDigital/prompts-library.git
