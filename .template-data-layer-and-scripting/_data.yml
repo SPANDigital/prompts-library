@@ -1,0 +1,11 @@
+roleMap:
+  system:
+    gpt: system
+    palm: 0
+  user:
+    gpt: user
+    palm: 1
+animals:
+  - cats
+  - dogs
+  - monkeys
