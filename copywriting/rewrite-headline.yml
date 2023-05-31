@@ -6,4 +6,4 @@ params:
   headline: "{{ stdin }}"
 prompts:
   - role: user
-    content: Rewrite this headline "{{ .headline }}".
+    content: Rewrite this headline "{{ trim .headline }}".
