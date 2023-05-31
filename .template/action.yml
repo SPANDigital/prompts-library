@@ -3,7 +3,6 @@
 # Certain values can be processed as go templates
 # - function from sprig are available http://masterminds.github.io/sprig/
 # - a function "stdin" is registered to load entire contents of stdin
-name: action
 inherit: system
 # Params
 #  key is the param name, value is the default value

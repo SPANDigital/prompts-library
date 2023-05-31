@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: request
 inherit: system
 params:
   request: "{{ stdin }}"

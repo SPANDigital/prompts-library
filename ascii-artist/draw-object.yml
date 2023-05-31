@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: draw-object
 inherit: system
 params:
   object: "{{ stdin }}"

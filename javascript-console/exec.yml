@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: exec
 inherit: system
 params:
   js: "{{ trim stdin }}"
