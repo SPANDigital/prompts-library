@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
+//
 // You have access to the variables:
 // - params
 // - data
 //
-// as well as addPrompt(
+// as well as addPrompt(role, message)
 //
 
 function joinTerms(terms) {
