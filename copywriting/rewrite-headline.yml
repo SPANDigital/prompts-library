@@ -2,10 +2,8 @@
 
 name: rewrite-headline
 inherit: copywriter
-usage: >
-  ```echo "Florida Man has alligator as security" | codeassistant copywriting rewrite-headline```
 params:
   headline: "{{ stdin }}"
 prompts:
   - role: user
-    content: Rewrite this headline "{{ .headline }}".
+    content: Rewrite this headline "{{ trim .headline }}".
