@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: MIT
+
+name: generate-meeting-minutes
+params:
+  content: "{{ stdin }}"
+ui-hints:
+  content:
+    label: Content
+    helper-text: Content to transform
+    props:
+      multiline: true
+prompts:
+  - role: system
+    content: >
+      You role is to produce meeting minutes from a transcript of the meeting. Your minutes must contain the following. 
+      Date and time of the meeting, attendees, subjects covered, decisions made, action items and owner and due dates.
+  - role: user
+    content: >
+      The content is as follows:
+      
+      {{ trim .content }}
