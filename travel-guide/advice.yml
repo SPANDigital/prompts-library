@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: advice
 inherit: system
 params:
   advice: "{{ stdin }}"

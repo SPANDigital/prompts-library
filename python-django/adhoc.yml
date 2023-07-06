@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: adhoc
 inherit: system
 params:
   requirements: "{{ stdin }}"

@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: MIT
+
+inherit: system
+params:
+  sourceCode: "{{ stdin }}"
+  optimization: ""
+ui-hints:
+  optimization:
+    label: Requested optimization
+    helper-text: Requested optimization
+    props:
+      multiline: true
+  sourceCode:
+    label: Go source code
+    helper-text: Go source code to convert
+    props:
+      multiline: true
+prompts:
+  - role: user
+    content: >
+      Optimize go as follows 
+      
+      {{ trim .optimization }}
+      
+      The go code follows:
+      
+      {{ trim .sourceCode }}

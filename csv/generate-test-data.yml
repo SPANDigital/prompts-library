@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: generate-test-data
 inherit: system
 params:
   columns: "{{ stdin }}"

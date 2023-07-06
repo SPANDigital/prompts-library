@@ -1,0 +1,10 @@
+inherit: copywriter
+params:
+  role: "managing director"
+  instruction:
+prompts:
+  - role: user
+    content: >
+      In the role of a {{ .role }}.
+      
+      {{ .instruction }}

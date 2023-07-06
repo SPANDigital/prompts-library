@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: MIT
+
+inherit: system
+params:
+  sourceCode: "{{ stdin }}"
+ui-hints:
+  sourceCode:
+    label: Go source code
+    helper-text: Go source code to convert
+    props:
+      multiline: true
+prompts:
+  - role: user
+    content: >
+      List ways in which we could optimize code in a numbered list.
+      
+      The go code follows:
+      
+      {{ trim .sourceCode }}

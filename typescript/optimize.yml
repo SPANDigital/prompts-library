@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: MIT
+
+inherit: system
+params:
+  sourceCode: "{{ stdin }}"
+ui-hints:
+  sourceCode:
+    label: Typescript source code
+    helper-text: Typescript source code to optimize
+    props:
+      multiline: true
+prompts:
+  - role: user
+    content: >
+      Optimize and improve the following typescript code. In your response, provide both the optimized code in full,
+      and a description of the optimizations separately. Do not change the signatures of any public functions. You
+      must explain your optimizations first, before the code.
+      
+      The typescript code follows:
+      
+      {{ trim .sourceCode }}

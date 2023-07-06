@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: solve-problem
 inherit: system
 params:
   problem: "{{ stdin }}"

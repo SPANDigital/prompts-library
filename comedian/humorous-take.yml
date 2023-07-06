@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: humorous-take
 inherit: system
 params:
   topic: "{{ stdin }}"

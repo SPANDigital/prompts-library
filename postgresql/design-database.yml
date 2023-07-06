@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: design-database
 inherit: system
 params:
   requirements: "{{ stdin }}"

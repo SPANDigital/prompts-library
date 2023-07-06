@@ -1,6 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-name: chat
 inherit: system
 params:
   chat: "{{ stdin }}"
