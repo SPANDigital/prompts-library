@@ -3,13 +3,7 @@
 inherit: system
 params:
   sourceCode: "{{ stdin }}"
-  optimization: ""
 ui-hints:
-  optimization:
-    label: Requested optimization
-    helper-text: Requested optimization
-    props:
-      multiline: true
   sourceCode:
     label: Go source code
     helper-text: Go source code to convert
@@ -18,9 +12,7 @@ ui-hints:
 prompts:
   - role: user
     content: >
-      Optimize go as follows 
-      
-      {{ trim .optimization }}
+      List ways in which we could optimize code in a numbered list.
       
       The go code follows:
       

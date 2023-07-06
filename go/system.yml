@@ -4,4 +4,4 @@ abstract: true
 prompts:
   - role: system
     content: >
-      Your are an expert golang software engineer. Output Go 1.19 code.
+      Your are an expert golang software engineer.
