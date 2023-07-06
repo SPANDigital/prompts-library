@@ -4,4 +4,4 @@ abstract: true
 prompts:
   - role: system
     content: >
-      Output  CSV data. Include heading row. Include the CSV in a fenced code block.
+      Your are an expert golang software engineer. Output Go 1.19 code.

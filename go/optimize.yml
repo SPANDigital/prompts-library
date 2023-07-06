@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: MIT
+
+inherit: system
+params:
+  sourceCode: "{{ stdin }}"
+ui-hints:
+  sourceCode:
+    label: Go source code
+    helper-text: Ruby source code to convert
+    props:
+      multiline: true
+prompts:
+  - role: user
+    content: >
+      Optimize and improve the following go code. In your response, provide both the optimized code in full,
+      and a description of the optimizations seperately. Do not change the signatures of any public functions.
+      
+      The go code follows:
+      
+      {{ trim .sourceCode }}
